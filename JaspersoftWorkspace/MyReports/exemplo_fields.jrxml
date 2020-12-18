@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="exemplo_fields" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1a619fd4-5231-4432-acef-ca0c7589d258">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Mysql-ClassicModels"/>
+	<property name="com.jaspersoft.studio.data.sql.tables">
+		<![CDATA[Y2xhc3NpY21vZGVscy5leGVtcGxvZmllbGRzIEFTICw3NiwxMCwyZTZmNWNmZC0wNDIzLTQ3OGEt
+YTk4OS04NjcwZmRhYjBhNTA7]]>
+	</property>
+	<queryString>
+		<![CDATA[SELECT classicmodels.exemplofields.`exBoolean`,
+	classicmodels.exemplofields.`exDouble`,
+	classicmodels.exemplofields.`exFloat`,
+	classicmodels.exemplofields.`exInteger`,
+	classicmodels.exemplofields.`exLong`,
+	classicmodels.exemplofields.`exShort`,
+	classicmodels.exemplofields.`exString`,
+	classicmodels.exemplofields.`exBigDecimal`,
+	classicmodels.exemplofields.`exSqlDate`,
+	classicmodels.exemplofields.`exTime`,
+	classicmodels.exemplofields.`exSqlTimestamp`,
+	classicmodels.exemplofields.`exJavaUtilDate`
+FROM classicmodels.exemplofields]]>
+	</queryString>
+	<field name="exBoolean" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.name" value="exBoolean"/>
+		<property name="com.jaspersoft.studio.field.label" value="exBoolean"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exDouble" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="exDouble"/>
+		<property name="com.jaspersoft.studio.field.label" value="exDouble"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exFloat" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="exFloat"/>
+		<property name="com.jaspersoft.studio.field.label" value="exFloat"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exInteger" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="exInteger"/>
+		<property name="com.jaspersoft.studio.field.label" value="exInteger"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exLong" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="exLong"/>
+		<property name="com.jaspersoft.studio.field.label" value="exLong"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exShort" class="java.lang.Short">
+		<property name="com.jaspersoft.studio.field.name" value="exShort"/>
+		<property name="com.jaspersoft.studio.field.label" value="exShort"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exString" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="exString"/>
+		<property name="com.jaspersoft.studio.field.label" value="exString"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exBigDecimal" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="exBigDecimal"/>
+		<property name="com.jaspersoft.studio.field.label" value="exBigDecimal"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exSqlDate" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="exSqlDate"/>
+		<property name="com.jaspersoft.studio.field.label" value="exSqlDate"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exTime" class="java.sql.Time">
+		<property name="com.jaspersoft.studio.field.name" value="exTime"/>
+		<property name="com.jaspersoft.studio.field.label" value="exTime"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exSqlTimestamp" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="exSqlTimestamp"/>
+		<property name="com.jaspersoft.studio.field.label" value="exSqlTimestamp"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="exJavaUtilDate" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="exJavaUtilDate"/>
+		<property name="com.jaspersoft.studio.field.label" value="exJavaUtilDate"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="exemplofields"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="373" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="200" height="373" uuid="92cac40f-c34f-4b7a-ba52-785e9baa05c7">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+				</reportElement>
+				<textField>
+					<reportElement x="0" y="0" width="200" height="32" uuid="a04cb67b-5655-4ac6-a27e-ec89d53a0569"/>
+					<textFieldExpression><![CDATA[$F{exBoolean}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="32" width="200" height="31" uuid="ff5307c3-634c-448f-a4f2-80e947d24de8"/>
+					<textFieldExpression><![CDATA[$F{exDouble}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="63" width="200" height="31" uuid="1cf702c1-e995-468d-95f6-62e67f936946"/>
+					<textFieldExpression><![CDATA[$F{exFloat}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="94" width="200" height="31" uuid="1cbbc4bc-44c2-4e70-8d4e-6f55a37b9e5e"/>
+					<textFieldExpression><![CDATA[$F{exInteger}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="125" width="200" height="31" uuid="c24330cc-5fdc-4381-9ed4-10d95d20bb06"/>
+					<textFieldExpression><![CDATA[$F{exLong}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="156" width="200" height="31" uuid="a24bd0cc-ca56-4506-94d0-b2807714fb71"/>
+					<textFieldExpression><![CDATA[$F{exShort}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="187" width="200" height="31" uuid="ab03e9f5-5455-49f8-9605-62cd465d4cb7"/>
+					<textFieldExpression><![CDATA[$F{exString}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="218" width="200" height="31" uuid="3df5dd91-512b-4bd0-87ed-c87b01ae5db8"/>
+					<textFieldExpression><![CDATA[$F{exBigDecimal}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="249" width="200" height="31" uuid="f900832e-4f47-466b-8eca-9e866b028d0d"/>
+					<textFieldExpression><![CDATA[$F{exSqlDate}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="280" width="200" height="31" uuid="59eb49bb-e29c-478c-be0a-e5bbfa76bd17"/>
+					<textFieldExpression><![CDATA[$F{exTime}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="311" width="200" height="31" uuid="af541d01-ca2f-4a65-8635-94912a43cbc6"/>
+					<textFieldExpression><![CDATA[$F{exSqlTimestamp}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="342" width="200" height="31" uuid="dd3a08ee-3ae1-4a28-9d78-f6bfbd7cd83c"/>
+					<textFieldExpression><![CDATA[$F{exJavaUtilDate}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="200" y="0" width="345" height="373" uuid="b66bb2f8-9a14-415d-b499-56feabc846de">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+				</reportElement>
+				<textField>
+					<reportElement x="0" y="0" width="345" height="32" uuid="e0a7a532-044c-4d4e-a79f-5e689eb3bdd8"/>
+					<textFieldExpression><![CDATA[$F{exBoolean}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="32" width="345" height="31" uuid="1b5d5d44-8da1-4944-893d-06fe9a07ef1a"/>
+					<textFieldExpression><![CDATA[$F{exDouble}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="63" width="345" height="31" uuid="3e62703d-e8b6-4ae7-8b32-1f6a4ae487b8"/>
+					<textFieldExpression><![CDATA[$F{exFloat}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="94" width="345" height="31" uuid="e99a2a51-8a52-4209-a356-70712c73e382"/>
+					<textFieldExpression><![CDATA[$F{exInteger}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="125" width="345" height="31" uuid="f017b614-6950-4623-b080-7a167da13d5e"/>
+					<textFieldExpression><![CDATA[$F{exLong}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="156" width="345" height="31" uuid="f81cec98-ed5a-43e0-817d-7811f08ddce1"/>
+					<textFieldExpression><![CDATA[$F{exShort}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="187" width="345" height="31" uuid="e81f5690-9bb8-47ee-a7aa-335c11b9d88c"/>
+					<textFieldExpression><![CDATA[$F{exString}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="218" width="345" height="31" uuid="0c35628e-f759-465c-98fa-2c7712dd93b4"/>
+					<textFieldExpression><![CDATA[$F{exBigDecimal}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="249" width="345" height="31" uuid="1a91f04f-168a-44ee-ae61-531736434558"/>
+					<textFieldExpression><![CDATA[$F{exSqlDate}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="280" width="345" height="31" uuid="85f208fc-83ef-4ac3-97b8-b4f6919c40a6"/>
+					<textFieldExpression><![CDATA[$F{exTime}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="311" width="345" height="31" uuid="fb8ece23-7791-4e9d-a439-ed5334d58922"/>
+					<textFieldExpression><![CDATA[$F{exSqlTimestamp}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="342" width="345" height="31" uuid="8105a33d-51f7-4b1b-8ec2-105683e6a3a8"/>
+					<textFieldExpression><![CDATA[$F{exJavaUtilDate}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

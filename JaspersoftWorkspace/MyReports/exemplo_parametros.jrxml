@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="exemplo_parametros" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="79d2cfff-7abd-459a-8f8a-3250eaab0ec3">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Mysql-ClassicModels"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="String" class="java.lang.String"/>
+	<parameter name="Boolean" class="java.lang.Boolean"/>
+	<parameter name="Double" class="java.lang.Double"/>
+	<parameter name="Integer" class="java.lang.Integer"/>
+	<parameter name="Date" class="java.sql.Date"/>
+	<parameter name="Time" class="java.sql.Time"/>
+	<parameter name="Timestamp" class="java.sql.Timestamp"/>
+	<parameter name="DateUtil" class="java.util.Date"/>
+	<queryString>
+		<![CDATA[SELECT 'a' AS 'a']]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="256" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="256" uuid="2a77f257-d736-4eb5-85fc-68b1191aadea">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+				</reportElement>
+				<textField>
+					<reportElement x="0" y="0" width="555" height="32" uuid="8e4d9e67-0707-41e2-b4a3-c54b464b1e69"/>
+					<textFieldExpression><![CDATA[$P{String}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="32" width="555" height="32" uuid="331b13ec-9eb8-45bc-99e5-89ae3d039d5d"/>
+					<textFieldExpression><![CDATA[$P{Boolean}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="64" width="555" height="32" uuid="54119b0c-36ed-4d1b-96f0-5b05d94a2a98"/>
+					<textFieldExpression><![CDATA[$P{Double}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="96" width="555" height="32" uuid="a14b16cf-b037-4331-a390-692b08f6470f"/>
+					<textFieldExpression><![CDATA[$P{Integer}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="128" width="555" height="32" uuid="0c136133-3c1f-4856-a6d7-bee4ca2a864d"/>
+					<textFieldExpression><![CDATA[$P{Date}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="160" width="555" height="32" uuid="90979baa-749d-4ff9-b2c2-067e21c66649"/>
+					<textFieldExpression><![CDATA[$P{Time}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="192" width="555" height="32" uuid="7bb4fd99-daac-45ba-942c-91d9c11dff8f"/>
+					<textFieldExpression><![CDATA[$P{Timestamp}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="224" width="555" height="32" uuid="3c6932e8-dcb7-4de3-b908-2dd8b87ae534"/>
+					<textFieldExpression><![CDATA[$P{DateUtil}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
